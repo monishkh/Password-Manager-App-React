@@ -1,0 +1,55 @@
+.img-delete {
+  width: 20px;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.display-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  width: 40%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  li {
+    width: 90%;
+    margin-right: 15px;
+  }
+}
+.names {
+  text-align: left;
+}
+
+.first-word {
+  background-color: tomato;
+  border-radius: 50px;
+  margin-right: 5px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .first-word {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.star {
+  width: 100px;
+  height: 15px;
+}
